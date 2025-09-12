@@ -14,6 +14,18 @@
 		FC6464942E744DDD003D68B3 /* wardrobeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464932E744DDD003D68B3 /* wardrobeTests.swift */; };
 		FC64649E2E744DDD003D68B3 /* wardrobeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64649D2E744DDD003D68B3 /* wardrobeUITests.swift */; };
 		FC6464A02E744DDD003D68B3 /* wardrobeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64649F2E744DDD003D68B3 /* wardrobeUITestsLaunchTests.swift */; };
+		FC6464AE2E747CCC003D68B3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464AD2E747CCC003D68B3 /* LoginView.swift */; };
+		FC6464B82E747D47003D68B3 /* O_LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464B72E747D47003D68B3 /* O_LoginForm.swift */; };
+		FC6464BA2E747D6A003D68B3 /* M_EmailField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464B92E747D6A003D68B3 /* M_EmailField.swift */; };
+		FC6464BC2E747D74003D68B3 /* M_PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464BB2E747D74003D68B3 /* M_PasswordField.swift */; };
+		FC6464BE2E747D9A003D68B3 /* A_TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464BD2E747D9A003D68B3 /* A_TextInput.swift */; };
+		FC6464C02E747DA8003D68B3 /* A_Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464BF2E747DA8003D68B3 /* A_Heading.swift */; };
+		FC6464C22E747DCB003D68B3 /* A_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464C12E747DCB003D68B3 /* A_Button.swift */; };
+		FC6464C82E747E20003D68B3 /* R_Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464C72E747E20003D68B3 /* R_Auth.swift */; };
+		FC6464CA2E747E35003D68B3 /* M_Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464C92E747E35003D68B3 /* M_Auth.swift */; };
+		FC6464CD2E747E74003D68B3 /* S_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464CC2E747E74003D68B3 /* S_User.swift */; };
+		FC6464CF2E747E87003D68B3 /* A_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464CE2E747E87003D68B3 /* A_Color.swift */; };
+		FC6464D12E747EBA003D68B3 /* M_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464D02E747EBA003D68B3 /* M_Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		FC6464992E744DDD003D68B3 /* wardrobeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wardrobeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC64649D2E744DDD003D68B3 /* wardrobeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobeUITests.swift; sourceTree = "<group>"; };
 		FC64649F2E744DDD003D68B3 /* wardrobeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC6464AD2E747CCC003D68B3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FC6464B72E747D47003D68B3 /* O_LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_LoginForm.swift; sourceTree = "<group>"; };
+		FC6464B92E747D6A003D68B3 /* M_EmailField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_EmailField.swift; sourceTree = "<group>"; };
+		FC6464BB2E747D74003D68B3 /* M_PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_PasswordField.swift; sourceTree = "<group>"; };
+		FC6464BD2E747D9A003D68B3 /* A_TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_TextInput.swift; sourceTree = "<group>"; };
+		FC6464BF2E747DA8003D68B3 /* A_Heading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Heading.swift; sourceTree = "<group>"; };
+		FC6464C12E747DCB003D68B3 /* A_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Button.swift; sourceTree = "<group>"; };
+		FC6464C72E747E20003D68B3 /* R_Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_Auth.swift; sourceTree = "<group>"; };
+		FC6464C92E747E35003D68B3 /* M_Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_Auth.swift; sourceTree = "<group>"; };
+		FC6464CC2E747E74003D68B3 /* S_User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_User.swift; sourceTree = "<group>"; };
+		FC6464CE2E747E87003D68B3 /* A_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Color.swift; sourceTree = "<group>"; };
+		FC6464D02E747EBA003D68B3 /* M_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +118,9 @@
 		FC6464812E744DDB003D68B3 /* wardrobe */ = {
 			isa = PBXGroup;
 			children = (
+				FC6464C32E747DEF003D68B3 /* Modules */,
+				FC6464B12E747CFF003D68B3 /* Components */,
+				FC6464AC2E747CAF003D68B3 /* Pages */,
 				FC6464822E744DDB003D68B3 /* wardrobeApp.swift */,
 				FC6464842E744DDB003D68B3 /* ContentView.swift */,
 				FC6464862E744DDD003D68B3 /* Assets.xcassets */,
@@ -125,6 +152,95 @@
 				FC64649F2E744DDD003D68B3 /* wardrobeUITestsLaunchTests.swift */,
 			);
 			path = wardrobeUITests;
+			sourceTree = "<group>";
+		};
+		FC6464AC2E747CAF003D68B3 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				FC6464AD2E747CCC003D68B3 /* LoginView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		FC6464B12E747CFF003D68B3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FC6464B52E747D17003D68B3 /* Organisms */,
+				FC6464B42E747D11003D68B3 /* Molecules */,
+				FC6464B32E747D0C003D68B3 /* Atoms */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC6464B32E747D0C003D68B3 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				FC6464BD2E747D9A003D68B3 /* A_TextInput.swift */,
+				FC6464BF2E747DA8003D68B3 /* A_Heading.swift */,
+				FC6464C12E747DCB003D68B3 /* A_Button.swift */,
+				FC6464CE2E747E87003D68B3 /* A_Color.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		FC6464B42E747D11003D68B3 /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				FC6464B92E747D6A003D68B3 /* M_EmailField.swift */,
+				FC6464BB2E747D74003D68B3 /* M_PasswordField.swift */,
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		FC6464B52E747D17003D68B3 /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+				FC6464B72E747D47003D68B3 /* O_LoginForm.swift */,
+			);
+			path = Organisms;
+			sourceTree = "<group>";
+		};
+		FC6464C32E747DEF003D68B3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FC6464CB2E747E68003D68B3 /* Session */,
+				FC6464C62E747DFE003D68B3 /* Repository */,
+				FC6464C52E747DF9003D68B3 /* Helpers */,
+				FC6464C42E747DF5003D68B3 /* Models */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FC6464C42E747DF5003D68B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC6464C92E747E35003D68B3 /* M_Auth.swift */,
+				FC6464D02E747EBA003D68B3 /* M_Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC6464C52E747DF9003D68B3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FC6464C62E747DFE003D68B3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FC6464C72E747E20003D68B3 /* R_Auth.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FC6464CB2E747E68003D68B3 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				FC6464CC2E747E74003D68B3 /* S_User.swift */,
+			);
+			path = Session;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +373,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6464CD2E747E74003D68B3 /* S_User.swift in Sources */,
+				FC6464C82E747E20003D68B3 /* R_Auth.swift in Sources */,
+				FC6464C22E747DCB003D68B3 /* A_Button.swift in Sources */,
+				FC6464AE2E747CCC003D68B3 /* LoginView.swift in Sources */,
 				FC6464852E744DDB003D68B3 /* ContentView.swift in Sources */,
+				FC6464C02E747DA8003D68B3 /* A_Heading.swift in Sources */,
 				FC6464832E744DDB003D68B3 /* wardrobeApp.swift in Sources */,
+				FC6464CA2E747E35003D68B3 /* M_Auth.swift in Sources */,
+				FC6464B82E747D47003D68B3 /* O_LoginForm.swift in Sources */,
+				FC6464CF2E747E87003D68B3 /* A_Color.swift in Sources */,
+				FC6464D12E747EBA003D68B3 /* M_Response.swift in Sources */,
+				FC6464BA2E747D6A003D68B3 /* M_EmailField.swift in Sources */,
+				FC6464BE2E747D9A003D68B3 /* A_TextInput.swift in Sources */,
+				FC6464BC2E747D74003D68B3 /* M_PasswordField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
