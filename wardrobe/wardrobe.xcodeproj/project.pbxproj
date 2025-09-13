@@ -26,6 +26,10 @@
 		FC6464CD2E747E74003D68B3 /* S_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464CC2E747E74003D68B3 /* S_User.swift */; };
 		FC6464CF2E747E87003D68B3 /* A_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464CE2E747E87003D68B3 /* A_Color.swift */; };
 		FC6464D12E747EBA003D68B3 /* M_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6464D02E747EBA003D68B3 /* M_Response.swift */; };
+		FC64652C2E755A04003D68B3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64652B2E755A04003D68B3 /* HomeView.swift */; };
+		FC6465302E755ACA003D68B3 /* M_Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64652F2E755ACA003D68B3 /* M_Stats.swift */; };
+		FC6465322E755C2A003D68B3 /* R_Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6465312E755C2A003D68B3 /* R_Stats.swift */; };
+		FC6465342E755DD8003D68B3 /* O_TotalClothesByTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6465332E755DD8003D68B3 /* O_TotalClothesByTypeList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		FC6464CC2E747E74003D68B3 /* S_User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_User.swift; sourceTree = "<group>"; };
 		FC6464CE2E747E87003D68B3 /* A_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Color.swift; sourceTree = "<group>"; };
 		FC6464D02E747EBA003D68B3 /* M_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_Response.swift; sourceTree = "<group>"; };
+		FC64652B2E755A04003D68B3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FC64652F2E755ACA003D68B3 /* M_Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_Stats.swift; sourceTree = "<group>"; };
+		FC6465312E755C2A003D68B3 /* R_Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_Stats.swift; sourceTree = "<group>"; };
+		FC6465332E755DD8003D68B3 /* O_TotalClothesByTypeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_TotalClothesByTypeList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				FC6464AD2E747CCC003D68B3 /* LoginView.swift */,
+				FC64652B2E755A04003D68B3 /* HomeView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -196,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				FC6464B72E747D47003D68B3 /* O_LoginForm.swift */,
+				FC6465332E755DD8003D68B3 /* O_TotalClothesByTypeList.swift */,
 			);
 			path = Organisms;
 			sourceTree = "<group>";
@@ -216,6 +226,7 @@
 			children = (
 				FC6464C92E747E35003D68B3 /* M_Auth.swift */,
 				FC6464D02E747EBA003D68B3 /* M_Response.swift */,
+				FC64652F2E755ACA003D68B3 /* M_Stats.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				FC6464C72E747E20003D68B3 /* R_Auth.swift */,
+				FC6465312E755C2A003D68B3 /* R_Stats.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -375,7 +387,9 @@
 			files = (
 				FC6464CD2E747E74003D68B3 /* S_User.swift in Sources */,
 				FC6464C82E747E20003D68B3 /* R_Auth.swift in Sources */,
+				FC6465342E755DD8003D68B3 /* O_TotalClothesByTypeList.swift in Sources */,
 				FC6464C22E747DCB003D68B3 /* A_Button.swift in Sources */,
+				FC64652C2E755A04003D68B3 /* HomeView.swift in Sources */,
 				FC6464AE2E747CCC003D68B3 /* LoginView.swift in Sources */,
 				FC6464852E744DDB003D68B3 /* ContentView.swift in Sources */,
 				FC6464C02E747DA8003D68B3 /* A_Heading.swift in Sources */,
@@ -384,6 +398,8 @@
 				FC6464B82E747D47003D68B3 /* O_LoginForm.swift in Sources */,
 				FC6464CF2E747E87003D68B3 /* A_Color.swift in Sources */,
 				FC6464D12E747EBA003D68B3 /* M_Response.swift in Sources */,
+				FC6465302E755ACA003D68B3 /* M_Stats.swift in Sources */,
+				FC6465322E755C2A003D68B3 /* R_Stats.swift in Sources */,
 				FC6464BA2E747D6A003D68B3 /* M_EmailField.swift in Sources */,
 				FC6464BE2E747D9A003D68B3 /* A_TextInput.swift in Sources */,
 				FC6464BC2E747D74003D68B3 /* M_PasswordField.swift in Sources */,

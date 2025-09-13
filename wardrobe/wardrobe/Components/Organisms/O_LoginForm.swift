@@ -35,7 +35,7 @@ struct LoginForm: View {
             .disabled(isLoading)
             
             .navigationDestination(isPresented: $isLoggedIn) {
-                // Clothes Page
+                HomeView()
             }
         }
     }

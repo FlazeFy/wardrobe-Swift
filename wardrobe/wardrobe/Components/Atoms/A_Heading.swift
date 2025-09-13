@@ -8,13 +8,22 @@
 import Foundation
 import SwiftUI
 
-struct Heading: View {
+struct AtomHeading: View {
     var text: String
+    var lineWidth: CGFloat = 1
     
     var body: some View {
         Text(text)
             .font(.title2)
             .fontWeight(.bold)
-            .padding(.top, 8)
+            .foregroundColor(Color(hex: "#00a6e1"))
+            .shadow(color: .white, radius: 0, x:  lineWidth, y:  0)
+            .shadow(color: .white, radius: 0, x: -lineWidth, y:  0)
+            .shadow(color: .white, radius: 0, x:  0, y:  lineWidth)
+            .shadow(color: .white, radius: 0, x:  0, y: -lineWidth)
+            .shadow(color: .white, radius: 0, x:  lineWidth, y:  lineWidth)
+            .shadow(color: .white, radius: 0, x: -lineWidth, y: -lineWidth)
+            .shadow(color: .white, radius: 0, x:  lineWidth, y: -lineWidth)
+            .shadow(color: .white, radius: 0, x: -lineWidth, y:  lineWidth)
     }
 }
