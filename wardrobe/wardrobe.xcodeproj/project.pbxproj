@@ -30,6 +30,8 @@
 		FC6465302E755ACA003D68B3 /* M_Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64652F2E755ACA003D68B3 /* M_Stats.swift */; };
 		FC6465322E755C2A003D68B3 /* R_Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6465312E755C2A003D68B3 /* R_Stats.swift */; };
 		FC6465342E755DD8003D68B3 /* O_TotalClothesByTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6465332E755DD8003D68B3 /* O_TotalClothesByTypeList.swift */; };
+		FC6465382E758F9A003D68B3 /* O_ClothesSummaryBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6465372E758F9A003D68B3 /* O_ClothesSummaryBox.swift */; };
+		FC64653A2E759AD2003D68B3 /* H_Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6465392E759AD2003D68B3 /* H_Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		FC64652F2E755ACA003D68B3 /* M_Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_Stats.swift; sourceTree = "<group>"; };
 		FC6465312E755C2A003D68B3 /* R_Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_Stats.swift; sourceTree = "<group>"; };
 		FC6465332E755DD8003D68B3 /* O_TotalClothesByTypeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_TotalClothesByTypeList.swift; sourceTree = "<group>"; };
+		FC6465372E758F9A003D68B3 /* O_ClothesSummaryBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClothesSummaryBox.swift; sourceTree = "<group>"; };
+		FC6465392E759AD2003D68B3 /* H_Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +210,7 @@
 			children = (
 				FC6464B72E747D47003D68B3 /* O_LoginForm.swift */,
 				FC6465332E755DD8003D68B3 /* O_TotalClothesByTypeList.swift */,
+				FC6465372E758F9A003D68B3 /* O_ClothesSummaryBox.swift */,
 			);
 			path = Organisms;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 		FC6464C52E747DF9003D68B3 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FC6465392E759AD2003D68B3 /* H_Converter.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -394,6 +400,7 @@
 				FC6464852E744DDB003D68B3 /* ContentView.swift in Sources */,
 				FC6464C02E747DA8003D68B3 /* A_Heading.swift in Sources */,
 				FC6464832E744DDB003D68B3 /* wardrobeApp.swift in Sources */,
+				FC6465382E758F9A003D68B3 /* O_ClothesSummaryBox.swift in Sources */,
 				FC6464CA2E747E35003D68B3 /* M_Auth.swift in Sources */,
 				FC6464B82E747D47003D68B3 /* O_LoginForm.swift in Sources */,
 				FC6464CF2E747E87003D68B3 /* A_Color.swift in Sources */,
@@ -403,6 +410,7 @@
 				FC6464BA2E747D6A003D68B3 /* M_EmailField.swift in Sources */,
 				FC6464BE2E747D9A003D68B3 /* A_TextInput.swift in Sources */,
 				FC6464BC2E747D74003D68B3 /* M_PasswordField.swift in Sources */,
+				FC64653A2E759AD2003D68B3 /* H_Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

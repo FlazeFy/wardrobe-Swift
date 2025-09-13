@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var clothesTypes: [FetchStats]? = nil
+    @State private var clothesSummary: FetchClothesSummary? = nil
     @State private var isLoading = true
     @State private var showError = false
 
@@ -19,6 +20,9 @@ struct HomeView: View {
             } else {
                 if let dt = clothesTypes {
                     TotalClothesByTypeList(clothesTypes: dt)
+                }
+                if let dt = clothesSummary {
+                    ClothesSummaryBox(clothesSummary: dt)
                 }
             }
         }
@@ -35,13 +39,20 @@ struct HomeView: View {
                 }
             }
             
+            group.enter()
+            R_Stats.shared.getClothesSummary { res in
+                DispatchQueue.main.async {
+                    self.clothesSummary = res
+                    group.leave()
+                }
+            }
+            
             group.notify(queue: .main) {
                 self.isLoading = false
-                if clothesTypes == nil {
+                if clothesTypes == nil || clothesSummary == nil {
                     self.showError = true
                 }
             }
-
         }
         .navigationBarBackButtonHidden(true)
         .alert("Error", isPresented: $showError) {

@@ -16,3 +16,17 @@ struct FetchStats: Codable {
         case total = "total"
     }
 }
+
+struct FetchClothesSummary: Codable {
+    let totalClothes: Int
+    let maxPrice: Int
+    let avgPrice: Int
+    let sumClothesQty: Int
+    
+    enum CodingKeys: String, CodingKey {
+        case totalClothes = "total_clothes"
+        case maxPrice = "max_price"
+        case avgPrice = "avg_price"
+        case sumClothesQty = "sum_clothes_qty"
+    }
+}

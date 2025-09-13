@@ -15,8 +15,11 @@ struct TotalClothesByTypeList: View {
         VStack(spacing: 10) {
             AtomHeading(text: "All Types")
             ForEach(clothesTypes, id: \.context) { dt in
-                Text("\(dt.total) \(dt.context)")
-                    .fontWeight(.semibold)
+                HStack {
+                    Spacer()
+                    Text("\(dt.total) \(dt.context)")
+                        .fontWeight(.semibold)
+                }
             }
         }
         .padding()
