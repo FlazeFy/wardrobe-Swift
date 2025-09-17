@@ -38,6 +38,10 @@
 		FC6465422E75AF77003D68B3 /* M_History.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6465412E75AF77003D68B3 /* M_History.swift */; };
 		FC6465442E75AF8B003D68B3 /* R_History.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6465432E75AF8B003D68B3 /* R_History.swift */; };
 		FC6465462E75AFBE003D68B3 /* A_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6465452E75AFBE003D68B3 /* A_Text.swift */; };
+		FC86D1AA2E7A5A3700A584BB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86D1A92E7A5A3700A584BB /* ProfileView.swift */; };
+		FC86D1AC2E7A5AB700A584BB /* R_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86D1AB2E7A5AB700A584BB /* R_User.swift */; };
+		FC86D1AE2E7A5AE800A584BB /* M_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86D1AD2E7A5AE800A584BB /* M_User.swift */; };
+		FC86D1B02E7A5B7300A584BB /* O_EditProfileForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86D1AF2E7A5B7300A584BB /* O_EditProfileForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +96,10 @@
 		FC6465412E75AF77003D68B3 /* M_History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_History.swift; sourceTree = "<group>"; };
 		FC6465432E75AF8B003D68B3 /* R_History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_History.swift; sourceTree = "<group>"; };
 		FC6465452E75AFBE003D68B3 /* A_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Text.swift; sourceTree = "<group>"; };
+		FC86D1A92E7A5A3700A584BB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FC86D1AB2E7A5AB700A584BB /* R_User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_User.swift; sourceTree = "<group>"; };
+		FC86D1AD2E7A5AE800A584BB /* M_User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_User.swift; sourceTree = "<group>"; };
+		FC86D1AF2E7A5B7300A584BB /* O_EditProfileForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_EditProfileForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +192,7 @@
 				FC6464AD2E747CCC003D68B3 /* LoginView.swift */,
 				FC64652B2E755A04003D68B3 /* HomeView.swift */,
 				FC64653B2E75A88D003D68B3 /* HistoryView.swift */,
+				FC86D1A92E7A5A3700A584BB /* ProfileView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -227,6 +236,7 @@
 				FC6465332E755DD8003D68B3 /* O_TotalClothesByTypeList.swift */,
 				FC6465372E758F9A003D68B3 /* O_ClothesSummaryBox.swift */,
 				FC64653F2E75AF55003D68B3 /* O_HistoryList.swift */,
+				FC86D1AF2E7A5B7300A584BB /* O_EditProfileForm.swift */,
 			);
 			path = Organisms;
 			sourceTree = "<group>";
@@ -249,6 +259,7 @@
 				FC6464D02E747EBA003D68B3 /* M_Response.swift */,
 				FC64652F2E755ACA003D68B3 /* M_Stats.swift */,
 				FC6465412E75AF77003D68B3 /* M_History.swift */,
+				FC86D1AD2E7A5AE800A584BB /* M_User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -267,6 +278,7 @@
 				FC6464C72E747E20003D68B3 /* R_Auth.swift */,
 				FC6465312E755C2A003D68B3 /* R_Stats.swift */,
 				FC6465432E75AF8B003D68B3 /* R_History.swift */,
+				FC86D1AB2E7A5AB700A584BB /* R_User.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -410,12 +422,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC6465422E75AF77003D68B3 /* M_History.swift in Sources */,
+				FC86D1AA2E7A5A3700A584BB /* ProfileView.swift in Sources */,
 				FC6464CD2E747E74003D68B3 /* S_User.swift in Sources */,
+				FC86D1AC2E7A5AB700A584BB /* R_User.swift in Sources */,
 				FC6464C82E747E20003D68B3 /* R_Auth.swift in Sources */,
 				FC6465342E755DD8003D68B3 /* O_TotalClothesByTypeList.swift in Sources */,
 				FC6464C22E747DCB003D68B3 /* A_Button.swift in Sources */,
 				FC64652C2E755A04003D68B3 /* HomeView.swift in Sources */,
 				FC6464AE2E747CCC003D68B3 /* LoginView.swift in Sources */,
+				FC86D1AE2E7A5AE800A584BB /* M_User.swift in Sources */,
 				FC6465442E75AF8B003D68B3 /* R_History.swift in Sources */,
 				FC6464852E744DDB003D68B3 /* ContentView.swift in Sources */,
 				FC64653C2E75A88D003D68B3 /* HistoryView.swift in Sources */,
@@ -429,6 +444,7 @@
 				FC6464D12E747EBA003D68B3 /* M_Response.swift in Sources */,
 				FC6465302E755ACA003D68B3 /* M_Stats.swift in Sources */,
 				FC64653E2E75AF32003D68B3 /* M_HistoryBox.swift in Sources */,
+				FC86D1B02E7A5B7300A584BB /* O_EditProfileForm.swift in Sources */,
 				FC6465462E75AFBE003D68B3 /* A_Text.swift in Sources */,
 				FC6465322E755C2A003D68B3 /* R_Stats.swift in Sources */,
 				FC6464BA2E747D6A003D68B3 /* M_EmailField.swift in Sources */,
