@@ -34,5 +34,7 @@ struct EditProfileForm: View {
         }
         .padding()
         .cornerRadius(18)
+        .background(Color(hex: "#F3F3F3")
+        .ignoresSafeArea())
     }
 }

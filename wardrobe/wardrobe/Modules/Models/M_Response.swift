@@ -11,3 +11,8 @@ struct ErrorResponse: Codable {
     let status: String
     let result: String
 }
+
+struct SuccessResponse: Codable {
+    let status: String
+    let message: String
+}

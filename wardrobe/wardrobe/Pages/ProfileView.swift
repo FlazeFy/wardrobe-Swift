@@ -20,6 +20,8 @@ struct ProfileView: View {
                 if let dt = myProfile {
                     EditProfileForm(profile: dt)
                 }
+                
+                PostQuestionForm()
             }
         }
         .onAppear {
@@ -48,8 +50,7 @@ struct ProfileView: View {
             Button("OK", role: .cancel) { }
         } message: {
             Text("Failed to get the data")
-        }.background(Color(hex: "#F3F3F3")
-            .ignoresSafeArea())
+        }
         .padding(12)
     }
 }
